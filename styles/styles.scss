@@ -1,0 +1,21 @@
+@import './variables';
+@import './polaroid';
+@import './zoom';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+.PolaroidIllustration {
+  height: 72rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $background;
+}

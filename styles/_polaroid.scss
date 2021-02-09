@@ -1,0 +1,54 @@
+@import './variables';
+
+.polaroid {
+  width: 42rem;
+  height: 28rem;
+  background-color: white;
+  border-radius: 2rem;
+  position: relative;
+  box-shadow: 10px 10px darken($background, 5%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  position: absolute;
+  width: 12%;
+  height: 6%;
+  background-color: $button-color;
+  border-radius: 1.5rem 1.5rem 0 0;
+  top: -6%;
+  left: 10%;
+}
+
+.flash__body {
+  position: absolute;
+  width: 20%;
+  height: 15%;
+  background-color: $grey;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 1rem 1rem 0 0;
+  top: -15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flash {
+  width: 57%;
+  height: 60%;
+  background-color: lighten($grey, 30%);
+  border-radius: 0.5rem;
+}
+
+.blinker {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: $dark-grey;
+  position: absolute;
+  top: 10%;
+  left: 13%;
+}
